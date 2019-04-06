@@ -5,7 +5,7 @@
   "data": {"url": "student-mat.csv"},
   "mark": "point",
   "encoding": {
-    "x": {"field": "student","type": "quantitative"},
+    "x": {"field": "studytime","type": "quantitative"},
     "y": {"field": "G3","type": "quantitative"}
   }
 }
