@@ -3,6 +3,8 @@
   "description": "A bar chart that sorts the y-values by the x-values.",
   "data": {"url": "vgsales.csv"},
   "mark": "bar",
+  "width": 360,
+  "Height":720,
   "encoding": {
     "y": {
       "field": "Year",
