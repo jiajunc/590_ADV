@@ -1,5 +1,5 @@
 {
-  "data": {"url": "student-mat.json"},
+  "data": {"url": "student-mat.csv"},
   "vconcat": [{
     "selection": {
       "brush": {"type": "interval"}
