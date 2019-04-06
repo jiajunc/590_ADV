@@ -7,6 +7,6 @@
   "encoding": {
     "x": {"field": "Year", "type": "temporal"},
     "y": {"aggregate": "sum", "field": "Global_Sales", "type": "quantitative"},
-    "color": {"field": "Publisher", "type": "nominal"}
+    "color": {"field": "Platform", "type": "nominal"}
   }
 }
