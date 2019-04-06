@@ -7,22 +7,14 @@
 </head>
 
 <body>  
-  <div id="vis"></div>
+  <div id="vis1"></div>
   <div id="vis2"></div>
-  <div id="vis3"></div>
   <script>
-    const spec1 = "bar.vl.json";
-  	vegaEmbed('#vis', spec1)
+  	vegaEmbed('#vis1', "bar.vl.json")
     	// result.view provides access to the Vega View API
       .then(result => console.log(result))
       .catch(console.warn);
-    const spec2 = "bar2.vl.json";
-  	vegaEmbed('#vis2', spec2)
-    	// result.view provides access to the Vega View API
-      .then(result => console.log(result))
-      .catch(console.warn);
-    const spec3 = "bar3.vl.json";
-  	vegaEmbed('#vis3', spec3)
+  	vegaEmbed('#vis2', "bar2.vl.json")
     	// result.view provides access to the Vega View API
       .then(result => console.log(result))
       .catch(console.warn);
