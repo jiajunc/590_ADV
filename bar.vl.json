@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
-  "data": {"url": "/vgsalesGlobale.csv"},
+  "data": {"url": "vgsalesGlobale.csv"},
   "mark": "tick",
   "encoding": {
     "x": {"field": "Global_Sales", "type": "quantitative"}
