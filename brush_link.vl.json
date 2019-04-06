@@ -1,5 +1,5 @@
 {
-  "data": {"url": "student-mat.csv"},
+  "data": {"url": "studen-mat.json"},
   "vconcat": [{
     "selection": {
       "brush": {"type": "interval"}
@@ -17,9 +17,11 @@
     "encoding": {
       "x": {
         "field": "Dalc", "type": "quantitative",
+        "scale": {"domain": [0,5]}
       },
       "y": {
         "field": "health","type": "quantitative",
+        "scale": {"domain": [0, 5]}
       }
     }
   }]
