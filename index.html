@@ -8,7 +8,6 @@
 
 <body>  
   <div id="vis"></div>
-  <div id="vis2"></div>
   <script>
     const spec = "bar.vl.json";
   	vegaEmbed('#vis', spec)
@@ -16,6 +15,7 @@
       .then(result => console.log(result))
       .catch(console.warn);
   </script>
+  <div id="vis2"></div>
   <script>
     const spec = "bar.vl2.json";
   	vegaEmbed('#vis2', spec)
