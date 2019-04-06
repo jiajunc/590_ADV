@@ -10,7 +10,6 @@
       "field": "Year",
       "type": "ordinal",
       "scale": {"rangeStep": 17},
-      "sort": {"encoding": "x"}
     },
     "x": {
       "aggregate": "sum",
