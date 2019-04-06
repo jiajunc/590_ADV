@@ -1,27 +1,20 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v3.json",
-  "data": {"url": "vgsalesGlobale.csv"},
+  "description": "A bar chart that sorts the y-values by the x-values.",
+  "data": {"url": "vgsales.csv"},
   "mark": "bar",
   "encoding": {
-    "x": {
-      "timeUnit": "Year",
-      "field": "date",
-      "type": "ordinal",
-      "axis": {"title": "Month of the year"}
-    },
     "y": {
+      "field": "Year",
+      "type": "ordinal",
+      "scale": {"rangeStep": 1},
+      "sort": {"encoding": "x"}
+    },
+    "x": {
       "aggregate": "sum",
       "field": "Global_Sales",
-      "type": "quantitative"
-    },
-    "color": {
-      "field": "Platform",
-      "type": "nominal",
-      "scale": {
-        "domain": ["Wii","NES","GB","X360","PS2"],
-        "range": ["#e7ba52","#c7c7c7","#aec7e8","#1f77b4","#9467bd"]
-      },
-      "legend": {"title": "Weather type"}
+      "type": "quantitative",
+      "axis": {"title": "Global Sales"}
     }
   }
 }
