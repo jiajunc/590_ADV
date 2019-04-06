@@ -10,16 +10,21 @@
   <div id="vis1"></div>
   <div id="vis2"></div>
   <div id="vis3"></div>
+  <div id="vis4"></div>
   <script>
-  	vegaEmbed('#vis1', "bar1.vl.json")
+  	vegaEmbed('#vis1', "bar.vl.json")
     	// result.view provides access to the Vega View API
       .then(result => console.log(result))
       .catch(console.warn);
-  	vegaEmbed('#vis2', "bar2.vl.json")
+  	vegaEmbed('#vis2', "tack.vl.json")
     	// result.view provides access to the Vega View API
       .then(result => console.log(result))
       .catch(console.warn);
-	 vegaEmbed('#vis3', "bar3.vl.json")
+	 vegaEmbed('#vis3', "line.vl.json")
+    	// result.view provides access to the Vega View API
+      .then(result => console.log(result))
+      .catch(console.warn);
+	  vegaEmbed('#vis4', "brush_link.vl.json")
     	// result.view provides access to the Vega View API
       .then(result => console.log(result))
       .catch(console.warn);
