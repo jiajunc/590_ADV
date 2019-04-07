@@ -7,8 +7,8 @@
     },
     "mark": "point",
     "encoding": {
-      "x": {"field": "studytime","type": "quantitative"},
-      "y": {"field": "G3","type": "quantitative"}
+      "x": {"field": "studytime","type": "quantitative","axis": {"title": "Study Time"}},
+      "y": {"field": "G3","type": "Grade"}
     }
   }, {
     "transform": [
@@ -19,10 +19,12 @@
       "x": {
         "field": "Dalc", "type": "quantitative",
         "scale": {"domain": [0,5]}
+        "axis": {"title": " workday alcohol consumption"}
       },
       "y": {
         "field": "health","type": "quantitative",
         "scale": {"domain": [0, 5]}
+        "axis": {"title": "current health status"}
       }
     }
   }]
