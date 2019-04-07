@@ -18,12 +18,12 @@
     "encoding": {
       "x": {
         "field": "Dalc", "type": "quantitative",
-        "scale": {"domain": [0,5]}
+        "scale": {"domain": [0,5]},
         "axis": {"title": " workday alcohol consumption"}
       },
       "y": {
         "field": "health","type": "quantitative",
-        "scale": {"domain": [0, 5]}
+        "scale": {"domain": [0, 5]},
         "axis": {"title": "current health status"}
       }
     }
