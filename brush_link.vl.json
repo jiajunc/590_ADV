@@ -8,7 +8,7 @@
     "mark": "point",
     "encoding": {
       "x": {"field": "studytime","type": "quantitative","axis": {"title": "Study Time"}},
-      "y": {"field": "G3","type": "Grade"}
+      "y": {"field": "G3","type": "quantitative","axis": {"title": "Grade"}}
     }
   }, {
     "transform": [
